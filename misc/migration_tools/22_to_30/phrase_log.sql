@@ -31,7 +31,7 @@ CREATE TABLE `phrase_log` (
   `date` timestamp NOT NULL default CURRENT_TIMESTAMP on update CURRENT_TIMESTAMP,
   `actual` text NOT NULL,
   KEY `phr_ip` (`phr_ip`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `koha`.`phrase_log`
